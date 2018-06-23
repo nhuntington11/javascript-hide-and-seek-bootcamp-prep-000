@@ -22,5 +22,5 @@ function deepestChild() {
         startingPoint = startingPoint.firstElementChild
     }
     
-    return startingPoint.innerHTML
+    return startingPoint
 }  

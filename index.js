@@ -5,5 +5,3 @@ function getFirstSelector(selector) {
 function nestedTarget() {
   return document.getElementById('nested')
 }
-
-console.log(document.getElementById('nested'))

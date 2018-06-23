@@ -16,8 +16,11 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-    var newSearch = []
     var startingPoint = document.getElementById('grand-node')
     
-    return console.log(startingPoint)
-}
+    while (startingPoint.childElementCount != 0) {
+        startingPoint = startingPoint.firstElementChild
+    }
+    
+    return startingPoint.innerHTML
+}  
